@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Button } from './components/shared/button/button';
 import { Header } from './components/shared/header/header';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header],
+  imports: [RouterOutlet, Header, Button],
   template: `
     <header app-header></header>
 
@@ -12,8 +13,31 @@ import { Header } from './components/shared/header/header';
       <router-outlet />
     </main>
 
-    <footer class="border-t border-border px-responsive py-6">
-      <p class="text-text-secondary">To do...</p>
+    <footer class="border-t border-border px-responsive py-6 flex justify-center items-center">
+      <a
+        aria-label="GitHub"
+        app-button
+        icon="social-github"
+        variant="simple"
+        href="https://github.com/GeronimoGM"
+        target="_blank"
+      ></a>
+      <a
+        aria-label="LinkedIn"
+        app-button
+        icon="linkedin"
+        variant="simple"
+        href="https://linkedin.com/in/geronimogm"
+        target="_blank"
+      ></a>
+      <a
+        aria-label="Instagram"
+        app-button
+        icon="instagram"
+        variant="simple"
+        href="https://instagram.com/gero.gonzalez.m"
+        target="_blank"
+      ></a>
     </footer>
   `,
   host: {
