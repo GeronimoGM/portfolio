@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="es-AR">
+  <file id="ngi18n" original="ng.template">
+    <unit id="h1">
+      <notes>
+        <note category="location">src/app/pages/index-page/index-page.ts:16,18</note>
+      </notes>
+      <segment>
+        <source> Hola, soy <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;text-highlight&quot;&gt;" dispEnd="&lt;/span&gt;">Gerónimo</pc></source>
+      </segment>
+    </unit>
+    <unit id="presentation">
+      <notes>
+        <note category="location">src/app/pages/index-page/index-page.ts:20,22</note>
+      </notes>
+      <segment>
+        <source> Soy un <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;text-text-primary&quot;&gt;" dispEnd="&lt;/span&gt;">desarrollador full stack</pc> con experiencia en Spring, Angular y AWS. Me apasiona crear aplicaciones web modernas y eficientes. </source>
+      </segment>
+    </unit>
+    <unit id="button.contact">
+      <notes>
+        <note category="location">src/app/pages/index-page/index-page.ts:31,34</note>
+      </notes>
+      <segment>
+        <source>Contactame</source>
+      </segment>
+    </unit>
+    <unit id="button.cvDownload">
+      <notes>
+        <note category="location">src/app/pages/index-page/index-page.ts:41,44</note>
+      </notes>
+      <segment>
+        <source>Descargar CV</source>
+      </segment>
+    </unit>
+    <unit id="cv.href">
+      <notes>
+        <note category="location">src/app/pages/index-page/index-page.ts:49</note>
+      </notes>
+      <segment>
+        <source>/assets/pdf/cv-es.pdf</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

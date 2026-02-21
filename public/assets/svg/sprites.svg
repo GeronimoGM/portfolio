@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <!-- Logo -->
+  <symbol id="logo" viewBox="0 0 255 182">
+    <line x1="5" y1="-5" x2="123" y2="-5"
+      transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 90.7126 181.713)"
+      stroke="#10B981" stroke-width="10" stroke-linecap="round" />
+
+    <line x1="5" y1="-5" x2="123" y2="-5"
+      transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 90.5097)"
+      stroke="#6EE7B7" stroke-width="10" stroke-linecap="round" />
+
+    <line x1="247.354" y1="90.5097" x2="163.916" y2="7.07107"
+      stroke="#10B981" stroke-width="10" stroke-linecap="round" />
+
+    <line x1="163.713" y1="174.642" x2="247.151" y2="91.203"
+      stroke="#6EE7B7" stroke-width="10" stroke-linecap="round" />
+
+    <path
+      d="M127.213 41C144.865 41 159.941 54.2802 165.939 73H154.33C149.111 61.1061 138.741 53 126.798 53C109.608 53 95.6726 69.7893 95.6726 90.5C95.6726 111.211 109.608 128 126.798 128C140.037 128 151.343 118.04 155.841 104H127.213V91H168.713C168.713 118.614 150.132 141 127.213 141C104.293 141 85.7126 118.614 85.7126 91C85.7126 63.3858 104.293 41 127.213 41Z"
+      fill="#6EE7B7" />
+
+    <path
+      d="M168.713 91C168.713 118.614 150.132 141 127.213 141C113.967 141 102.171 133.524 94.573 121.883L102.509 113.947C108.213 122.514 116.973 128 126.798 128C140.037 128 151.343 118.04 155.841 104H127.213V91H168.713ZM158.416 58.041C161.603 62.4187 164.168 67.4716 165.939 73H154.33C153.235 70.5056 151.914 68.178 150.399 66.0566L158.416 58.041Z"
+      fill="#10B981" />
+  </symbol>
+  <!-- Mail -->
+  <symbol
+    id="mail"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+    <path d="M3 7l9 6l9 -6" />
+  </symbol>
+  <!-- Download -->
+  <symbol
+    id="download"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+    <path d="M7 11l5 5l5 -5" />
+    <path d="M12 4l0 12" />
+  </symbol>
+
+</svg>
