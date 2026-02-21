@@ -48,9 +48,9 @@ export class Button {
       case 'contrast':
         return 'bg-bg-contrast text-text-contrast hover:bg-bg-primary hover:text-text-primary';
       case 'accent':
-        return 'bg-accent text-text-contrast hover:bg-accent/80';
+        return 'bg-accent text-text-contrast hover:bg-accent-hover';
       case 'highlight':
-        return 'bg-highlight text-text-contrast hover:bg-highlight/80';
+        return 'bg-highlight text-text-contrast hover:bg-highlight-hover';
       case 'simple':
         return 'bg-transparent border-transparent text-text-primary hover:text-accent';
     }

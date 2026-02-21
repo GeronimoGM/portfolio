@@ -16,7 +16,7 @@
   --color-accent: var(--color-emerald-400);
   --color-accent-hover: var(--color-emerald-500);
 
-  --color-highlight: var(--color-sky-300);
+  --color-highlight: var(--color-sky-500);
   --color-highlight-hover: var(--color-sky-400);
 
   --color-border: var(--color-slate-200);
@@ -35,7 +35,7 @@
     --color-accent: var(--color-emerald-400);
     --color-accent-hover: var(--color-emerald-500);
 
-    --color-highlight: var(--color-sky-300);
+    --color-highlight: var(--color-sky-500);
     --color-highlight-hover: var(--color-sky-400);
 
     --color-border: var(--color-slate-200);
@@ -97,7 +97,7 @@
     --color-accent: var(--color-emerald-400);
     --color-accent-hover: var(--color-emerald-500);
 
-    --color-highlight: var(--color-sky-300);
+    --color-highlight: var(--color-sky-500);
     --color-highlight-hover: var(--color-sky-400);
 
     --color-border: var(--color-slate-200);
