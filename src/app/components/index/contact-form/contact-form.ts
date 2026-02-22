@@ -57,7 +57,7 @@ import { Button } from '../../shared/button/button';
           >
         }
       </div>
-      <button app-button variant="highlight" type="submit">Send</button>
+      <button i18n="@@form.send" app-button variant="highlight" type="submit">Enviar</button>
     </form>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
