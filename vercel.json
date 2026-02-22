@@ -1,7 +1,8 @@
 {
   "version": 2,
   "public": true,
-  "name": "angular-ssr",
+  "name": "portfolio",
+  "buildCommand": "npm run build",
   "rewrites": [
     {
       "source": "/(.*)",
