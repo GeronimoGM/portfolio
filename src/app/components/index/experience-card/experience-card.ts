@@ -16,12 +16,16 @@ import { Svg } from '../../shared/svg/svg';
         />
         <header>
           <a
-            class="inline-flex items-center gap-1 text-accent hover:underline"
+            class="inline-flex items-center gap-1 text-accent hover:underline group"
             [href]="experience().href"
             target="_blank"
           >
             <h3 class=" text-xl">{{ experience().company }}</h3>
-            <app-svg name="link" size="xs" />
+            <app-svg
+              class="group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform duration-150"
+              name="link"
+              size="xs"
+            />
           </a>
           <p class="text-text-primary text-lg">{{ experience().position }}</p>
         </header>
