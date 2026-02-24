@@ -7,7 +7,7 @@ import { Svg } from '../../shared/svg/svg';
   imports: [Svg],
   template: `
     <article class="flex flex-col justify-between gap-4 px-responsive py-6 lg:flex-row">
-      <p class="text-text-secondary w-1/2">{{ experience().time }}</p>
+      <p class="text-text-secondary w-full sm:w-1/2">{{ experience().time }}</p>
       <div class="flex flex-col gap-4">
         <img
           class="self-center object-cover h-64 rounded"
