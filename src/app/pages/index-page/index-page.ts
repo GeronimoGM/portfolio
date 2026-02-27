@@ -80,6 +80,7 @@ import { Experience } from '../../types/experience';
         >
           Angular
         </p>
+        <p class="bg-white text-purple-950 border border-bg-contrast" app-pill icon="ngrx">NgRx</p>
         <p class="bg-white text-black border border-bg-contrast" app-pill icon="tailwindcss">
           Tailwind
         </p>
