@@ -37,7 +37,7 @@ import { LanguageService } from './services/language-service';
         app-button
         icon="instagram"
         variant="simple"
-        href="https://instagram.com/gero.gonzalez.m"
+        href="https://instagram.com/geronimogm_"
         target="_blank"
       ></a>
     </footer>
