@@ -7,7 +7,8 @@
     "start": "ng serve",
     "build": "ng build --localize",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "i18n:extract": "ng extract-i18n --output-path src/locale --format=xlf2"
   },
   "prettier": {
     "printWidth": 100,
@@ -45,6 +46,7 @@
     "@types/express": "^5.0.6",
     "@types/node": "^20.19.41",
     "jsdom": "^27.4.0",
+    "ng-extract-i18n-merge": "^3.3.0",
     "postcss": "^8.5.15",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.7.4",

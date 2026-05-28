@@ -2,284 +2,176 @@
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="es">
   <file id="ngi18n" original="ng.template">
     <unit id="error.email.required">
-      <notes>
-        <note category="location">src/app/components/index/contact-form/contact-form.ts:29,32</note>
-      </notes>
       <segment>
         <source>El email es obligatorio</source>
       </segment>
     </unit>
     <unit id="error.email.email">
-      <notes>
-        <note category="location">src/app/components/index/contact-form/contact-form.ts:38,41</note>
-      </notes>
       <segment>
         <source>Ingrese un email válido</source>
       </segment>
     </unit>
     <unit id="form.message">
-      <notes>
-        <note category="location">src/app/components/index/contact-form/contact-form.ts:43,44</note>
-      </notes>
       <segment>
         <source> Mensaje </source>
       </segment>
     </unit>
     <unit id="error.message.required">
-      <notes>
-        <note category="location">src/app/components/index/contact-form/contact-form.ts:56,59</note>
-      </notes>
       <segment>
         <source>El mensaje es obligatorio</source>
       </segment>
     </unit>
     <unit id="form.send">
-      <notes>
-        <note category="location">src/app/components/index/contact-form/contact-form.ts:60,62</note>
-      </notes>
       <segment>
         <source>Enviar</source>
       </segment>
     </unit>
     <unit id="nav.about">
-      <notes>
-        <note category="location">src/app/components/shared/header/header.ts:20,21</note>
-      </notes>
       <segment>
         <source>Sobre mí</source>
       </segment>
     </unit>
     <unit id="nav.experience">
-      <notes>
-        <note category="location">src/app/components/shared/header/header.ts:21,22</note>
-      </notes>
       <segment>
         <source>Experiencia</source>
       </segment>
     </unit>
     <unit id="nav.education">
-      <notes>
-        <note category="location">src/app/components/shared/header/header.ts:22,23</note>
-      </notes>
       <segment>
         <source>Educación</source>
       </segment>
     </unit>
     <unit id="nav.contact">
-      <notes>
-        <note category="location">src/app/components/shared/header/header.ts:23,25</note>
-      </notes>
       <segment>
         <source>Contacto</source>
       </segment>
     </unit>
     <unit id="theme.light">
-      <notes>
-        <note category="location">src/app/components/shared/header/header.ts:36,37</note>
-        <note category="location">src/app/components/shared/header/header.ts:110</note>
-      </notes>
       <segment>
         <source> Claro </source>
       </segment>
     </unit>
     <unit id="theme.dark">
-      <notes>
-        <note category="location">src/app/components/shared/header/header.ts:48,49</note>
-        <note category="location">src/app/components/shared/header/header.ts:112</note>
-      </notes>
       <segment>
         <source> Oscuro </source>
       </segment>
     </unit>
     <unit id="theme.system">
-      <notes>
-        <note category="location">src/app/components/shared/header/header.ts:60,61</note>
-        <note category="location">src/app/components/shared/header/header.ts:114</note>
-      </notes>
       <segment>
         <source> Sistema </source>
       </segment>
     </unit>
     <unit id="title">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:25,26</note>
-      </notes>
       <segment>
         <source> Hola, soy <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;text-highlight&quot;&gt;" dispEnd="&lt;/span&gt;">Gerónimo</pc></source>
       </segment>
     </unit>
     <unit id="subtitle">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:28,29</note>
-      </notes>
       <segment>
         <source> Full Stack Developer </source>
       </segment>
     </unit>
     <unit id="presentation.role">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:34,36</note>
-      </notes>
       <segment>
         <source> Especializado en arquitectura backend y experiencias frontend modernas. </source>
       </segment>
     </unit>
     <unit id="presentation.experience">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:37,39</note>
-      </notes>
       <segment>
         <source> Fundador de <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;text-text-primary&quot;&gt;" dispEnd="&lt;/span&gt;">CompraAcá</pc>. Diseño y construyo aplicaciones robustas con Spring y Angular, priorizando rendimiento, seguridad y experiencia de usuario. </source>
       </segment>
     </unit>
     <unit id="button.contact">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:50,52</note>
-      </notes>
       <segment>
         <source>Contactame</source>
       </segment>
     </unit>
     <unit id="button.cvDownload">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:60,62</note>
-      </notes>
       <segment>
         <source>Descargar CV</source>
       </segment>
     </unit>
     <unit id="header.experience">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:72,74</note>
-      </notes>
       <segment>
-        <source><pc id="0" equivStart="START_TAG_APP_SVG" equivEnd="CLOSE_TAG_APP_SVG" type="other" dispStart="&lt;app-svg name=&quot;briefcase&quot; /&gt;" dispEnd="&lt;app-svg name=&quot;briefcase&quot; /&gt;"></pc> Experiencia </source>
+        <source><pc id="0" equivStart="START_TAG_APP_SVG" equivEnd="CLOSE_TAG_APP_SVG" type="other" dispStart="&lt;app-svg name=&quot;briefcase&quot; /&gt;" dispEnd="&lt;app-svg name=&quot;briefcase&quot; /&gt;"/> Experiencia </source>
       </segment>
     </unit>
     <unit id="header.education">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:124,126</note>
-      </notes>
       <segment>
-        <source><pc id="0" equivStart="START_TAG_APP_SVG" equivEnd="CLOSE_TAG_APP_SVG" type="other" dispStart="&lt;app-svg name=&quot;graduation-cap&quot; /&gt;" dispEnd="&lt;app-svg name=&quot;graduation-cap&quot; /&gt;"></pc> Educación </source>
+        <source><pc id="0" equivStart="START_TAG_APP_SVG" equivEnd="CLOSE_TAG_APP_SVG" type="other" dispStart="&lt;app-svg name=&quot;graduation-cap&quot; /&gt;" dispEnd="&lt;app-svg name=&quot;graduation-cap&quot; /&gt;"/> Educación </source>
       </segment>
     </unit>
     <unit id="header.contact">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:137,139</note>
-      </notes>
       <segment>
-        <source><pc id="0" equivStart="START_TAG_APP_SVG" equivEnd="CLOSE_TAG_APP_SVG" type="other" dispStart="&lt;app-svg name=&quot;mail&quot; /&gt;" dispEnd="&lt;app-svg name=&quot;mail&quot; /&gt;"></pc> Contacto </source>
+        <source><pc id="0" equivStart="START_TAG_APP_SVG" equivEnd="CLOSE_TAG_APP_SVG" type="other" dispStart="&lt;app-svg name=&quot;mail&quot; /&gt;" dispEnd="&lt;app-svg name=&quot;mail&quot; /&gt;"/> Contacto </source>
       </segment>
     </unit>
     <unit id="cv.href">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:145</note>
-      </notes>
       <segment>
         <source>assets/pdf/cv-es.pdf</source>
       </segment>
     </unit>
     <unit id="compraaca.time">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:148</note>
-      </notes>
       <segment>
-        <source>Enero 2025 - Presente</source>
+        <source>Enero 2025 - Mayo 2026</source>
       </segment>
     </unit>
     <unit id="compraaca.imgAlt">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:150</note>
-      </notes>
       <segment>
         <source>Previsualización de la página de CompraAcá</source>
       </segment>
     </unit>
     <unit id="compraaca.summary">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:154</note>
-      </notes>
       <segment>
         <source>Plataforma que ayuda a comercios locales y emprendimientos a tener presencia digital sin complejidad técnica. Permite publicar productos, recibir pedidos en tiempo real y administrar su tienda online de manera intuitiva y eficiente.</source>
       </segment>
     </unit>
     <unit id="utn-empleos.time">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:157</note>
-      </notes>
       <segment>
-        <source>Junio 2024 - Presente</source>
+        <source>Junio 2024 - Diciembre 2025</source>
       </segment>
     </unit>
     <unit id="utn-empleos.imgAlt">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:159</note>
-      </notes>
       <segment>
         <source>Previsualización de la página de UTN Empleos</source>
       </segment>
     </unit>
     <unit id="utn-empleos.summary">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:163</note>
-      </notes>
       <segment>
         <source>Plataforma institucional orientada a conectar estudiantes y graduados con oportunidades laborales. Permite la publicación y gestión de ofertas, facilitando el vínculo entre empresas y la comunidad académica.</source>
       </segment>
     </unit>
     <unit id="utn.time">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:168</note>
-      </notes>
       <segment>
         <source>Marzo 2022 - Febrero 2025</source>
       </segment>
     </unit>
     <unit id="utn.imgAlt">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:170</note>
-      </notes>
       <segment>
         <source>Logo de la Universidad Tecnológica Nacional</source>
       </segment>
     </unit>
     <unit id="utn.degree">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:171</note>
-      </notes>
       <segment>
         <source>Tecnicatura Universitaria en Programación</source>
       </segment>
     </unit>
     <unit id="utn.gpa">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:173</note>
-      </notes>
       <segment>
         <source>Promedio: 8,95</source>
       </segment>
     </unit>
     <unit id="cambridge.time">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:176</note>
-      </notes>
       <segment>
         <source>Diciembre 2024</source>
       </segment>
     </unit>
     <unit id="cambridge.imgAlt">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:178</note>
-      </notes>
       <segment>
         <source>Logo de Cambridge</source>
       </segment>
     </unit>
     <unit id="cambridge.gpa">
-      <notes>
-        <note category="location">src/app/pages/index-page/index-page.ts:181</note>
-      </notes>
       <segment>
         <source>Nota: 176/200</source>
       </segment>

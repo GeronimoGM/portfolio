@@ -72,6 +72,23 @@ import { Experience } from '../../types/experience';
       >
         <app-svg name="briefcase" /> Experiencia
       </h2>
+      <app-experience-card [experience]="utnEmpleos" appFade direction="left">
+        <p
+          class="bg-linear-to-r from-blue-500 via-fuchsia-500 to-red-500 text-white"
+          app-pill
+          icon="angular"
+        >
+          Angular
+        </p>
+        <p class="bg-white text-lime-500 border border-bg-contrast" app-pill icon="spring">
+          Spring
+        </p>
+        <p class="bg-white text-black border border-bg-contrast" app-pill icon="google-drive">
+          Google Drive
+        </p>
+        <p class="bg-sky-900 text-amber-400" app-pill icon="mysql">MySQL</p>
+        <p class="bg-white text-green-700 border border-bg-contrast" app-pill icon="nginx">Nginx</p>
+      </app-experience-card>
       <app-experience-card [experience]="compraaca" appFade direction="right">
         <p
           class="bg-linear-to-r from-blue-500 via-fuchsia-500 to-red-500 text-white"
@@ -84,7 +101,7 @@ import { Experience } from '../../types/experience';
         <p class="bg-white text-black border border-bg-contrast" app-pill icon="tailwindcss">
           Tailwind
         </p>
-        <p class="bg-white text-green-500 border border-bg-contrast" app-pill icon="spring">
+        <p class="bg-white text-lime-500 border border-bg-contrast" app-pill icon="spring">
           Spring
         </p>
         <p class="bg-sky-900 text-amber-400" app-pill icon="mysql">MySQL</p>
@@ -97,23 +114,6 @@ import { Experience } from '../../types/experience';
         <p class="bg-white text-black border border-bg-contrast" app-pill icon="aws">AWS</p>
         <p class="bg-white text-green-700 border border-bg-contrast" app-pill icon="nginx">Nginx</p>
         <p class="bg-black text-white" app-pill icon="github">GitHub Actions</p>
-      </app-experience-card>
-      <app-experience-card [experience]="utnEmpleos" appFade direction="left">
-        <p
-          class="bg-linear-to-r from-blue-500 via-fuchsia-500 to-red-500 text-white"
-          app-pill
-          icon="angular"
-        >
-          Angular
-        </p>
-        <p class="bg-white text-green-500 border border-bg-contrast" app-pill icon="spring">
-          Spring
-        </p>
-        <p class="bg-white text-black border border-bg-contrast" app-pill icon="google-drive">
-          Google Drive
-        </p>
-        <p class="bg-sky-900 text-amber-400" app-pill icon="mysql">MySQL</p>
-        <p class="bg-white text-green-700 border border-bg-contrast" app-pill icon="nginx">Nginx</p>
       </app-experience-card>
     </section>
 
@@ -147,16 +147,15 @@ export class IndexPage {
   protected readonly cvHref = $localize`:@@cv.href:assets/pdf/cv-es.pdf`;
 
   protected readonly compraaca: Experience = {
-    time: $localize`:@@compraaca.time:Enero 2025 - Presente`,
+    time: $localize`:@@compraaca.time:Enero 2025 - Mayo 2026`,
     imgSrc: 'assets/img/compraaca-cover.png',
     imgAlt: $localize`:@@compraaca.imgAlt:Previsualización de la página de CompraAcá`,
-    href: 'https://compraaca.com.ar',
     position: 'Founder & Full Stack Developer',
     company: 'CompraAcá',
     summary: $localize`:@@compraaca.summary:Plataforma que ayuda a comercios locales y emprendimientos a tener presencia digital sin complejidad técnica. Permite publicar productos, recibir pedidos en tiempo real y administrar su tienda online de manera intuitiva y eficiente.`,
   };
   protected readonly utnEmpleos: Experience = {
-    time: $localize`:@@utn-empleos.time:Junio 2024 - Presente`,
+    time: $localize`:@@utn-empleos.time:Junio 2024 - Diciembre 2025`,
     imgSrc: 'assets/img/utn-empleos-cover.webp',
     imgAlt: $localize`:@@utn-empleos.imgAlt:Previsualización de la página de UTN Empleos`,
     href: 'https://bolsatrabajo.mdp.utn.edu.ar',
